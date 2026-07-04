@@ -2,6 +2,36 @@
 
 All notable changes to AEGIS are documented in this file. Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [SemVer](https://semver.org/).
 
+## [0.5.0] — 2026-07-04 — Phase 5: Mission Control Surface Completed
+
+### Changed
+- `src/routes/index.tsx`: Replaced placeholder with a grid-based Mission Control Surface layout. Integrated `useSuspenseQuery` to fetch and display data from `investigationsService` and `alertsService`. Added loader for initial data pre-fetching.
+- Applied semantic design system tokens for all styling.
+
+### Added
+- Explicit `TODO` comment in `src/routes/index.tsx` for premium real-time feed component integration (evaluating React Bits, Accernatiy, or custom).
+
+---
+
+## [0.4.0] — 2026-07-04 — Phase 4: Seed Data Fabric & Service Layer Completed
+
+### Added
+- `src/types/index.ts`: Comprehensive TypeScript interfaces for core domain objects.
+- `src/seed/index.ts`: Realistic, interconnected mock data for all domain objects.
+- `src/services/types.ts`: Service interfaces for typed contracts.
+- `src/services/index.ts`: Implementations of all services using seed data.
+- `src/lib/queryKeys.ts`: Structured TanStack Query keys for service operations.
+
+---
+
+## [0.3.0] — 2026-07-04 — Phase 3: App Shell & Navigation Completed
+
+### Changed
+- `src/routes/__root.tsx`: Redesigned `RootComponent` to implement the app shell layout with `Sidebar`, `Header`, `main` (`<Outlet />`), and `Footer`. Updated `NotFoundComponent` and `ErrorComponent` to use design system tokens. Populated `Sidebar` with primary navigation links. Implemented `Cmd+K` keyboard model skeleton. Implemented `Header` global command bar shell structure. Implemented `Footer` with tagline and copyright.
+- `src/styles.css`: Added CSS variables for `sidebar-width`, `header-height`, and `footer-height`.
+
+---
+
 ## [0.2.0] — 2026-07-04 — Phase 2: Design System & Token Layer Completed
 
 ### Changed
