@@ -2,11 +2,27 @@
 
 All notable changes to AEGIS are documented in this file. Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [SemVer](https://semver.org/).
 
-## [Unreleased]
+## [0.1.0] — 2026-07-04 — Repository Audit & Lovable DNA Removed
 
-### Planned
-- Phase 2 — Design System & Token Layer
-- Phase 3 — App Shell & Navigation
+### Changed
+- Updated project `name` in `package.json` to "aegis".
+- Updated `src/routes/__root.tsx` metadata to reflect AEGIS branding.
+- Updated `src/lib/error-page.ts` content and metadata to reflect AEGIS branding.
+- Enabled stricter TypeScript checks (`noUnusedLocals`, `noUnusedParameters`) in `tsconfig.json`.
+
+### Removed
+- `.lovable/` directory and contents.
+- `src/lib/lovable-error-reporting.ts`.
+- `src/.DS_Store` and `public/favicon.ico`.
+- Generic placeholder content from `src/routes/index.tsx`.
+- `src/routes/README.md`.
+- `src/components/ui/` directory, containing generic UI components.
+- Unused dependencies from `package.json` including all `@radix-ui/*` packages, `cmdk`, `embla-carousel-react`, `input-otp`, `react-day-picker`, `react-resizable-panels`, `recharts`, `sonner`, `tw-animate-css`, and `vaul`.
+- `@lovable.dev/vite-tanstack-config` and `nitro` dev dependencies.
+
+### Added
+- New architectural directories: `src/features/`, `src/services/`, `src/adapters/`, `src/design/`, `src/seed/`.
+- `TODO` comments for future UI/UX redesigns and feature implementation in relevant files.
 
 ---
 

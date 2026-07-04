@@ -8,6 +8,8 @@ Every phase declares: **Objectives**, **Deliverables**, **UX Goals**, **Engineer
 
 ## Phase 1 — Spec-Kit Foundation
 
+*Note: An initial Repository Audit and Lovable DNA removal (pre-Phase 1) has been completed, transforming the scaffold into a compliant starting point.*
+
 - **Objectives:** Establish the binding documentation set that governs every downstream decision.
 - **Deliverables:** 15 root-level markdown documents (see `README.md`).
 - **UX Goals:** N/A — but every UX contract for later phases originates here.
