@@ -17,7 +17,7 @@ Living ledger of intentional deferrals. Every entry names the trade-off, the own
 | 11 | Report PDF export renderer                    | Deferred until report editor ships                         | Phase 16      | First report ready to export              |
 | 12 | AI provider adapters (real vendors)           | Mock provider suffices for UX build                        | post-Phase 14 | Cloud + first real provider requested     |
 | 13 | Vector store implementation                   | In-memory suffices for seed corpus                         | post-Phase 14 | Corpus grows past ~1k chunks              |
-| 15 | Redesign of generic error page and root error/not found components | Requires Design System (Phase 2) and Motion/Micro-interactions (Phase 18) for world-class UI/UX | Phase 18      | Phase 2 (Design System) is established. |
+| 15 | Redesign of generic error page and root error/not found components | Now actionable with Design System (Phase 2) established, still requires Motion/Micro-interactions (Phase 18) for world-class UI/UX | Phase 18      | Motion pass (Phase 18) begins. |
 | 16 | Speckit CLI installation and initialization       | Technical issues with global installation/`npx` in the current environment | N/A           | Successful global installation of `speckit` CLI. |
 
 ## Rules

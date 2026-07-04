@@ -2,6 +2,28 @@
 
 All notable changes to AEGIS are documented in this file. Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [SemVer](https://semver.org/).
 
+## [0.2.0] — 2026-07-04 — Phase 2: Design System & Token Layer Completed
+
+### Changed
+- `src/styles.css`: Removed `tw-animate-css` import, removed generic color definitions, integrated AEGIS raw palette and semantic color tokens (oklch), radii, font families, type scale CSS variables. Updated `@layer base` for semantic colors.
+- `vite.config.ts`: Rewritten to remove `@lovable.dev/vite-tanstack-config` and explicitly include `react`, `tailwindcss`, `tsConfigPaths` plugins.
+- `package.json`: Updated with `@fontsource` dependencies.
+- `bun.lock`: Updated to reflect new font dependencies.
+
+### Removed
+- `components.json`.
+
+### Added
+- `src/design/colors.ts`: Raw and semantic color token definitions.
+- `src/design/typography.ts`: Type scale definitions.
+- `src/design/motion.ts`: Motion curve and duration definitions.
+- `src/design/index.ts`: Unified export for design tokens.
+- `tailwind.config.ts`: Custom Tailwind configuration integrating all design tokens.
+- `postcss.config.js`: PostCSS configuration for Tailwind.
+- `@fontsource/fraunces`, `@fontsource-variable/inter`, `@fontsource-variable/jetbrains-mono` dependencies.
+
+---
+
 ## [0.1.0] — 2026-07-04 — Repository Audit & Lovable DNA Removed
 
 ### Changed
