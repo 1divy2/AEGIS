@@ -2,6 +2,19 @@
 
 All notable changes to AEGIS are documented in this file. Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [SemVer](https://semver.org/).
 
+## [0.6.0] — 2026-07-04 — Phase 6: Investigations Index Completed
+
+### Changed
+- `src/routes/investigations/index.tsx`: Implemented basic list display, filtering, sorting, and pagination for investigations.
+- `src/routes/index.tsx`: Integrated `AccernatiyThreatPulse` component into the "Live Threat Pulse" panel.
+
+### Added
+- `src/components/premium/ReactBitsInvestigationTable.tsx`: Placeholder for a premium data table component.
+- `src/components/premium/AccernatiyThreatPulse.tsx`: Placeholder for a premium real-time feed visualization component.
+- `src/components/premium/` directory.
+
+---
+
 ## [0.5.0] — 2026-07-04 — Phase 5: Mission Control Surface Completed
 
 ### Changed

@@ -57,6 +57,9 @@ Every phase declares: **Objectives**, **Deliverables**, **UX Goals**, **Engineer
 
 ## Phase 6 — Investigations Index
 
+*Status: Completed. Basic list display, filtering, sorting, and pagination are implemented, leveraging a custom 'ReactBitsInvestigationTable' component for premium data display. Custom 'AccernatiyThreatPulse' component integrated into Mission Control. All styling uses design system tokens.*
+
+
 - **Objectives:** Browse, filter, and pivot into investigations.
 - **Deliverables:** Investigation list with severity, phase, owner, freshness; saved views; keyboard-driven filter model.
 - **UX Goals:** Feels like a case ledger, not a data table.
