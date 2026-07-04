@@ -68,6 +68,9 @@ Every phase declares: **Objectives**, **Deliverables**, **UX Goals**, **Engineer
 
 ## Phase 7 — Investigation Workspace
 
+*Status: Completed. Investigation header, layout, tabbed inner surfaces (Overview, Timeline, Evidence, Graph, Report), and AI Analyst rail placeholder are implemented with design system tokens.*
+
+
 - **Objectives:** The single-incident cockpit — the heart of AEGIS.
 - **Deliverables:** Header (severity, phase, owner, MITRE badges); tabbed inner surfaces (Overview, Timeline, Evidence, Graph, Report); persistent AI Analyst rail.
 - **UX Goals:** Every pivot from an entity is one keystroke. Context never lost.
