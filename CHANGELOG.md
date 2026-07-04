@@ -2,6 +2,20 @@
 
 All notable changes to AEGIS are documented in this file. Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [SemVer](https://semver.org/).
 
+## [0.7.0] — 2026-07-04 — Phase 7: Investigation Workspace Completed
+
+### Changed
+- `src/routes/investigations/$id.tsx`: Implemented basic investigation header and layout with AI Analyst rail placeholder. Implemented custom, premium-styled tab navigation for nested routes.
+
+### Added
+- `src/routes/investigations/$id/overview.tsx`: Nested route for investigation overview.
+- `src/routes/investigations/$id/timeline.tsx`: Nested route for investigation timeline.
+- `src/routes/investigations/$id/evidence.tsx`: Nested route for investigation evidence.
+- `src/routes/investigations/$id/graph.tsx`: Nested route for attack graph placeholder.
+- `src/routes/investigations/$id/report.tsx`: Nested route for investigation report placeholder.
+
+---
+
 ## [0.6.0] — 2026-07-04 — Phase 6: Investigations Index Completed
 
 ### Changed
